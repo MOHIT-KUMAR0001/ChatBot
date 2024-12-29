@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Sour Gummy", serif;
+    }
+
+    html,
+    body {
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+    }
+
+    ::-webkit-scrollbar{
+        background-color: transparent;
+    }
+    
+    ::-webkit-scrollbar-thumb{
+        background-color: #FFFFFF1A;
+        border-radius: 10px;
+    }
+
+    b{
+        font-family: Poppins;
+        font-weight: 600;
+    }
+
+    code{
+        background-color: #181A1F;
+        display: block;
+        padding:50px;
+        font-family:Poppins;
+        width: 100%;
+        overflow-x: scroll;
+        font-size: 22px;
+    }
+
+   
+}
+
+@layer utilities {
+    .nne {
+        display: block;
+    }
+}
+
